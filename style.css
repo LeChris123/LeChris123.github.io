@@ -34,7 +34,7 @@ h2 {
 	margin-bottom:150px;
 }
 #boxes .box{
-	float:left;
+	float:center;
 	text-align: center;
 	width:30%;
 	padding:10px;
