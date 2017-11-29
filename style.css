@@ -58,14 +58,13 @@ footer{
 	padding-bottom: 70px;
 }
 ul {
-    padding-left:100px;
+    alignment-baseline: central;
 	margin: 0px;
 	padding: 2px;
 	list-style: none;
 	opacity: .9;
 }
 ul li {
-    padding-left:100px;
 	float: left;
 	width: 200px;
 	height: 40px;
