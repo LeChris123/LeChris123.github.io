@@ -1,0 +1,90 @@
+body {
+	background: url('http://i.imgur.com/TgRDQuI.jpg') no-repeat;
+	background-size: cover;
+	font-family: BatangChe;
+
+	color: white;
+	line-height: 1.5;
+	margin: auto;
+}
+header .highlight, head .current a{
+	color: #17666b;
+	font-weight: bold;
+}
+header {
+	padding-left: 30px;
+}
+h2 {
+	font-size: 20px;
+}
+#showcase{
+	min-height:400px;
+	background: url('http://i.imgur.com/ExuE0rB.jpg') no-repeat 0 -65px;
+	background-size: cover;
+	text-align:center;
+	color: #5a5a5a;
+}
+#showcase h2{
+	margin-top: 100px;
+	font-size:55px;
+	margin-bottom:10px;
+}
+#boxes{
+	margin-top: 20px;
+	margin-bottom:150px;
+}
+#boxes .box{
+	float:left;
+	text-align: center;
+	width:30%;
+	padding:10px;
+
+}
+footer{
+	padding-left:40px;
+	width:97.9%;
+	overflow: hidden;
+	background: #35424a;
+	border-top: #64798c 6px solid;
+}
+.container1{
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-bottom: none;
+}
+.container2{
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 70px;
+}
+ul {
+	margin: 0px;
+	padding: 2px;
+	list-style: none;
+	opacity: .9;
+}
+ul li {
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: black;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 2px;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+ul li a:hover {
+	background-color: teal;
+}
+ul li ul li {
+	display: none;
+}
+ul li:hover ul li {
+	display: block;
+}
