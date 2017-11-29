@@ -30,11 +30,12 @@ h2 {
 	margin-bottom:10px;
 }
 #boxes{
+    padding-left:100px;
 	margin-top: 20px;
 	margin-bottom:150px;
 }
 #boxes .box{
-	float:center;
+	float:left;
 	text-align: center;
 	width:30%;
 	padding:10px;
