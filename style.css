@@ -46,6 +46,7 @@ footer{
 	overflow: hidden;
 	background: #35424a;
 	border-top: #64798c 6px solid;
+	opacity:.9;
 }
 .container1{
 	padding-top: 20px;
