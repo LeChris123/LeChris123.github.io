@@ -68,7 +68,9 @@ ul {
 	opacity: .9;
 }
 ul li {
-	float: center;
+	float: left;
+	position: relative;
+	left: -50%;
 	width: 200px;
 	height: 40px;
 	background-color: black;
