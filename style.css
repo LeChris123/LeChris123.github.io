@@ -4,7 +4,7 @@ body {
 	min-height: 90%;
 	max-width: 100%;
 	min-width: 90%;
-	background-size: cover;
+	background-size: contain;
 	font-family: BatangChe;
 
 	color: white;
