@@ -70,7 +70,6 @@ ul {
 ul li {
 	float: left;
 	position: relative;
-	left: -50%;
 	width: 200px;
 	height: 40px;
 	background-color: black;
