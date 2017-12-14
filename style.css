@@ -25,7 +25,7 @@ h2 {
 	min-height:400px;
 	min-width:100%;
 	background: url('bga.jpg') no-repeat 0;
-	background-size: cover;
+	background-size: contain;
 	text-align:center;
 	color: #5a5a5a;
 }
