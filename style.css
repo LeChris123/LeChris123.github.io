@@ -9,7 +9,7 @@ body {
 	margin: auto;
 }
 header .highlight, head .current a{
-	color: #17666b;
+	color: #d63e78;
 	font-weight: bold;
 }
 header {
@@ -19,7 +19,8 @@ h2 {
 	font-size: 20px;
 }
 #showcase{
-	min-height:100%;
+	min-height:400px;
+	min-width:100%;
 	background: url('vector.jpg') no-repeat 0;
 	background-size: cover;
 	text-align:center;
@@ -45,8 +46,8 @@ footer{
 	padding-left:40px;
 	width:97.9%;
 	overflow: hidden;
-	background: #35424a;
-	border-top: #64798c 6px solid;
+	background: #8c7587;
+	border-top: #8c6483 6px solid;
 	opacity:.9;
 }
 .container1{
