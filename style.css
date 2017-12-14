@@ -83,7 +83,7 @@ ul li a{
 }
 ul li a:hover {
 	background-color: teal;
-	transition: all 0.3s ease-in;
+	transition: all 0.2s ease-in;
 }
 ul li ul li {
 	display: none;
