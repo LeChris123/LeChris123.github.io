@@ -1,6 +1,6 @@
 body {
 	background: url('mcity.jpg') no-repeat 0;
-	height: 100%;
+	height: 400px;
 	background-size: cover;
 	font-family: BatangChe;
 
@@ -46,8 +46,8 @@ footer{
 	padding-left:40px;
 	width:97.9%;
 	overflow: hidden;
-	background: #8c7587;
-	border-top: #8c6483 6px solid;
+	background: #d14077;
+	border-top: #d63e78 6px solid;
 	opacity:.9;
 }
 .container1{
