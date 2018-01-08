@@ -68,6 +68,11 @@ footer{
 	padding-left: 30px;
 	padding-bottom: 70px;
 }
+.container3{
+	padding-left: none;
+	padding-bottom: none;
+	padding-top: none;
+}
 ul {
     
 	margin: 0px;
