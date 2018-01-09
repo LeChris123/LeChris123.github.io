@@ -97,7 +97,7 @@ ul li a{
 	display: block;
 }
 ul li a:hover {
-	background:url('/images/caf.jpg');
+	background:url('/images/fric.jpg');
 	background-color: teal;
 	color:white;
 	transition: all 0.4s ease-in;
