@@ -72,8 +72,8 @@ footer{
 	width:100%;
 }
 ul {
-    
-	margin: 0px;
+    display:table;
+	margin: auto;
 	padding: 2px;
 	list-style: none;
 	opacity: .9;
