@@ -1,5 +1,5 @@
 body {
-	background: url('osi.jpg') no-repeat 0;
+	background: url('/images/osi.jpg') no-repeat 0;
 	max-height: 100%;
 	max-width: 100%;
 	background-size: cover;
@@ -22,7 +22,7 @@ h2 {
 #showcase{
 	min-height:400px;
 	min-width:100%;
-	background: url('flor.jpg') no-repeat 0;
+	background: url('/images/flor.jpg') no-repeat 0;
 	background-size: cover;
 	text-align:center;
 	color: #707070;
