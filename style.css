@@ -99,6 +99,7 @@ ul li a{
 ul li a:hover {
 	background:url('/images/caf.jpg');
 	background-color: teal;
+	color:white;
 	transition: all 0.4s ease-in;
 }
 ul li ul li {
