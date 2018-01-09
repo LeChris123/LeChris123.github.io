@@ -97,6 +97,7 @@ ul li a{
 	display: block;
 }
 ul li a:hover {
+	background:url('/images/polygons.png');
 	background-color: teal;
 	transition: all 0.2s ease-in;
 }
