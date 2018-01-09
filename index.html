@@ -5,6 +5,9 @@
 	<title>Chris Lotoph</title>
 </head>
 <body>
+var serveStatic = require('serve-static')
+
+app.use(serveStatic('parent-folder-of-images-folder/'))
 	<link href='style.css' rel='stylesheet'>
 	<ul>
 		<li><a href='index.html'>Home</a></li>
