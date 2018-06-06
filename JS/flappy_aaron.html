@@ -1,0 +1,87 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Processing Demo</title>
+<script type="text/javascript" src="processing.js"></script>
+</head>
+
+<body>
+<script type="text/processing">
+
+///Processing code goes in between the script tags
+PImage background;  //creates variable for an image
+PImage berez;
+PImage bronco;
+int x = 0; int Vy = 0; int By = 0; // Gravity
+int gamestate = 0;
+int score = -2;
+int[] ox = new int[2]; 
+int[] oy = new int[2]; 
+void setup(){
+  size(1100, 700);
+  background = loadImage("backg.png");   //loads and saves image to variable
+  berez = loadImage("carpcarp.PNG");
+  bronco = loadImage("obstacle1.png");
+  fill(0);
+  textSize(40); 
+}
+
+void draw(){
+  if (gamestate == 0){
+  //background Control
+  imageMode(CORNER);
+  image(background, x, 0);
+  image(background, width + x, 0);
+  if (x< -1100){
+    x = 0;
+  }
+
+  image(berez, 100, By);  //draws lilB
+  x-=3;
+  Vy++;
+  By = By + Vy;
+  
+  for(int i = 0 ; i < 2; i++){
+    image(bronco, ox[i], oy[i] - (bronco.height/2+200));
+    image(bronco, ox[i], oy[i] + (bronco.height/2+200));
+    if(ox[i] < 0){
+      oy[i] = (int)random(200,height-200);
+      ox[i] = width;
+    }
+    if(ox[i] == width){
+      score++;
+    }
+    ox[i]-=3;
+  }
+  text(""+score, width/2-15, 700); 
+}
+for(int i = 0 ; i < 2; i++){
+if ((By > 700) || (By < -45)){
+    gamestate = 2;
+    score = 0;
+    textSize(40); fill (255,0,0); //red
+    text ("Git Gud", 500, 300);
+    rect(500,360,140,55,10);
+    fill(0); //black
+    text("Restart",500,400);
+   if (mouseX > 500 && mouseX < 640 && mouseY > 360 && mouseY < 415){  //button changes color when hovered
+    textSize(40); fill (94, 232, 9); //green
+    rect(500,360,140,55,10);
+    fill(0); //black
+    text("Restart",500,400);
+    if (mousePressed){       //restarts game 
+      gamestate = 0;
+      By = 600;  //where lilA restarts 
+   }
+   }}
+}
+}
+
+void mousePressed(){   //how high it jumps
+  Vy = - 17;
+}
+</script>
+<canvas id="sketch" style="border: 1px solid black;"></canvas>
+</body>
+</html>
